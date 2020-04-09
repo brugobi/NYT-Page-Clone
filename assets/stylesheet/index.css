@@ -1,0 +1,155 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.Main{
+    display: flex;
+    flex-flow: row nowrap;
+    background-color: black;
+    justify-content: center;
+}
+    .middle{
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        width:300px;
+    }
+    .title{
+        display: flex;
+        /* flex-flow: column; */
+        background-color: orange;
+        height: 100px;
+        width: 620px;
+    }
+    .image1{
+        display: flex;
+        flex-flow: column;
+        background-color: yellow;
+        height: 530px;
+        width: 947px;
+
+    }
+    .description{
+        display: flex;
+        flex-flow: column;
+        background-color: blue;
+        height: 75px;
+        width: 947px;
+
+    }
+    .Autor{
+        display: flex;
+        flex-flow: column;
+        background-color: green;
+        height: 50px;
+        width: 610px;
+
+    }
+    .date{
+        display: flex;
+        flex-flow: column;
+        background-color: orange;
+        height: 50px;
+        width: 610px;
+
+    }
+    .text1{
+        display: flex;
+        flex-flow: column;
+        background-color: green;
+        height: 50px;
+        width: 610px;
+
+    }
+    .subscribe{
+        display: flex;
+        flex-flow: row;
+        background-color: yellow;
+        height: 90px;
+        width: 360px;
+
+    }
+    .editor{ /* this is for aSide */
+        display: flex;
+        flex-flow: row;
+        background-color: greenyellow;
+        height: 50px;
+
+    }
+    .text2{
+        display: flex;
+        flex-flow: column;
+        background-color: paleturquoise;
+        height: 50px;
+        width: 610px;
+
+    }
+    .image2{
+        display: flex;
+        flex-flow: column;
+        background-color: yellow;
+        height: 638px;
+        width: 955px;
+    }
+    .text3{
+        display: flex;
+        flex-flow: column;
+        background-color: rosybrown;
+        height: 50px;
+        width: 610px;
+    }
+    .video{
+        display: flex;
+        flex-flow: column;
+        background-color: blue;
+        height: 50px;
+        width: 610px;
+    }
+    .text4{
+        display: flex;
+        flex-flow: column;
+        background-color: green;
+        height: 50px;
+        width: 610px;
+    }
+    .image3{
+        display: flex;
+        flex-flow: column;
+        background-color: orange;
+        height: 723px;
+        width: 578px;
+    }
+    .text5{
+        display: flex;
+        flex-flow: column;
+        background-color: purple;
+        height: 50px;
+        width: 610px;
+    }
+    .readComments{
+        display: flex;
+        flex-flow: column;
+        background-color: green;
+        height: 50px;
+        width: 610px;
+    }
+    .image4{
+        display: flex;
+        flex-flow: row;
+        background-color: yellow;
+        height: 900px;
+        width: 852px;
+    }
+    .mostPopular{
+        display: flex;
+        flex-flow: row;
+        background-color: red;
+        height: 50px;
+    }
+   
+
+
