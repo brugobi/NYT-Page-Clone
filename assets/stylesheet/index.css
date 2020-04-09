@@ -89,16 +89,7 @@
     display: grid;
     grid-row: 1 3;
 }
-
-    /* .middle{ 
-        justify-content: center;
-        align-items: center;
-        margin: 0 auto;
-        width:300px;
-    } */
-
-
-
+    
     .section{
         background-color: black;
         display: flex;
@@ -121,12 +112,16 @@
                 width: 620px;
                 flex-flow: row nowrap;
             }
-            .image1{
+            .cosmo { 
                 display: flex;
                 background-color: yellow;
                 height: 530px;
                 width: 947px;
-        
+    
+            }
+            .imageCosmo{
+                height: 530px;
+                width: 947px;
             }
             .description{
                 display: flex;
@@ -147,12 +142,14 @@
             }
             .date{
                 display: flex;
-                flex-flow: column;
+                justify-content: space-between;
                 background-color: orange;
                 height: 50px;
                 width: 610px;
         
             }
+
+
             
             
             
