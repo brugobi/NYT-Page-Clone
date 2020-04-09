@@ -68,37 +68,60 @@
         width: 610px;
 
     }
-    .text1{
-        display: flex;
-        flex-flow: column;
-        background-color: green;
-        height: 50px;
-        width: 610px;
 
-    }
-    .subscribe{
+    .section{
+        background-color: black;
         display: flex;
-        flex-flow: row;
-        background-color: yellow;
-        height: 90px;
-        width: 360px;
-
     }
-    .editor{ /* this is for aSide */
-        display: flex;
-        flex-flow: row;
-        background-color: greenyellow;
-        height: 50px;
+        .articles{
+            background: brown;
+            flex: 1 1 auto;
+            display: flex;
+            flex-flow: column nowrap;
+            justify-content: center;
+            align-items: center;
+        }
 
-    }
-    .text2{
-        display: flex;
-        flex-flow: column;
-        background-color: paleturquoise;
-        height: 50px;
-        width: 610px;
+            .text1{
+                display: flex;
+                flex-flow: column;
+                background-color: green;
+                height: 370px;
+                width: 610px;
 
-    }
+            }
+            .subscribe{
+                display: flex;
+                flex-flow: column;
+                background-color: yellow;
+                height: 90px;
+                width: 360px;
+
+            }
+            .text2{
+                display: flex;
+                flex-flow: column;
+                background-color: paleturquoise;
+                height: 470px;
+                width: 610px;
+            }
+
+        .aside{
+            background-attachment: red;
+            width: 200px;
+            flex: 1 1 auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+            .editor{ /* this is for aSide */
+                display: flex;
+                flex-flow: column;
+                background-color: greenyellow;
+                height: 310px;
+
+            }
+
     .image2{
         display: flex;
         flex-flow: column;
