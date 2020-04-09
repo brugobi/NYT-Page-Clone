@@ -19,7 +19,7 @@
 .Main{
     display: flex;
     flex-flow: row nowrap;
-    background-color: black;
+    background: black;
     justify-content: center;
     
 }
@@ -52,27 +52,13 @@
         width: 947px;
 
     }
-    .Autor{
-        display: flex;
-        flex-flow: column;
-        background-color: green;
-        height: 50px;
-        width: 610px;
 
-    }
-    .date{
-        display: flex;
-        flex-flow: column;
-        background-color: orange;
-        height: 50px;
-        width: 610px;
-
-    }
 
     .section{
         background-color: black;
         display: flex;
     }
+        
         .articles{
             background: brown;
             flex: 1 1 auto;
@@ -81,6 +67,38 @@
             justify-content: center;
             align-items: center;
         }
+            .image1{
+                display: flex;
+                flex-flow: column;
+                background-color: yellow;
+                height: 530px;
+                width: 947px;
+        
+            }
+            .description{
+                display: flex;
+                flex-flow: column;
+                background-color: blue;
+                height: 75px;
+                width: 947px;
+        
+            }
+            .Autor{
+                display: flex;
+                flex-flow: column;
+                background-color: green;
+                height: 50px;
+                width: 610px;
+        
+            }
+            .date{
+                display: flex;
+                flex-flow: column;
+                background-color: orange;
+                height: 50px;
+                width: 610px;
+        
+            }
 
             .text1{
                 display: flex;
@@ -107,11 +125,12 @@
             }
 
         .aside{
-            background-attachment: red;
-            width: 200px;
-            flex: 1 1 auto;
+            background: red;
+            /* width: 200px; */
+            /* flex: 1 1 auto; */
             display: flex;
-            justify-content: center;
+            /* flex-basis: 240px; */
+            justify-content: flex-start;
             align-items: center;
         }
             .editor{ /* this is for aSide */
@@ -119,6 +138,7 @@
                 flex-flow: column;
                 background-color: greenyellow;
                 height: 310px;
+                
 
             }
 
