@@ -6,11 +6,22 @@
     box-sizing: border-box;
 }
 
+.header {
+    /*position: fixed;*/
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px;
+}
+
+.titletop {
+    font-family: inherit;
+}
 .Main{
     display: flex;
     flex-flow: row nowrap;
     background-color: black;
     justify-content: center;
+    
 }
     .middle{
         justify-content: center;
