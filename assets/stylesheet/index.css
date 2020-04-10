@@ -65,73 +65,158 @@
     display: flex;
     flex-flow: row nowrap ;
     justify-content: center;
-    background: black;
+    /* background: black; */
     border: 1px solid green; 
 }
     .title{
         display: flex;
         justify-content: center;
         margin: auto;
-        margin-top: 55px;
-        background-color: orange;
-        height: 100px;
-        width: 620px;
+        margin-top: 75px;
+        margin-bottom: 35px; 
+        /* background-color: orange; */
+        height: 82px;
+        width: 580px;
+        /* border: 1px solid red; */
+        font-size: 17px;        
+        font-style: italic;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+
     }
     .cosmo { 
         display: flex;
         justify-content: center;
         margin: auto;
-        background-color: yellow;
-        height: 530px;
-        width: 947px;
-
+        /* background-color: yellow; */
     }
     .imageCosmo{
-        height: 530px;
-        width: 947px;
+        height: 533px;
+        width: 945px;
     }
     .description{
         display: flex;
+        flex-flow: column;
         justify-content: center;
-        margin: auto;
-        background-color: blue;
+        margin: auto;        
         height: 75px;
         width: 947px;
+        border: 1px solid red;
+        /* margin-top: -18px; */
 
     }        
     
+    .description>p{
+        width: 760px;
+        height: 50px;
+        border: 1px solid red;
+        font-size: 14px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: rgb(102, 102, 102);
+    }
+
+    .spanImage{
+        font-size: 13px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: rgb(136, 136, 136);
+    }
+
     .Autor{
         display: flex;
-        justify-content: center;
+        justify-content: flex-start;
+        align-items: flex-end;
         margin: auto;
-        background-color: green;
+        border: 1px solid red;
         height: 50px;
         width: 610px;
+        color: rgb(51, 51, 51);
+        font-size: 12px;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .autorLink{
+        color: rgb(51, 51, 51);
+        font-size: 12px;
+        font-weight: bold;
+        text-decoration: none;
+        text-decoration: underline;
+        font-family: Arial, Helvetica, sans-serif;
+
     }
     .date{
         display: flex;
-        justify-content: center;
+        justify-content: space-between;
+        align-items: center;
         margin: auto;
-        background-color: orange;
-        height: 50px;
+        border: 1px solid red;
+        height: 90px;
         width: 610px;
+        margin-top: -5px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 12px;
+        color: rgb(64, 64, 64);
     }
+
+    .iconsButton{
+        border-radius: 100%;
+        height: 26px;
+        width: 26px;
+        font-size: 16px;
+        margin-right: 11px;
+        background-color: rgb(235, 235, 235)
+        /* border: 2px solid red; */
+    }
+
+    .iconsNoButton{
+        /* text-decoration: none; */
+        width: 37px;
+        height: 30px;
+        font-size: 24px;
+        border: none;
+        background-color: white;
+    }
+    
 
     .text1{
         display: flex;
         flex-flow: column;
         justify-content: center;
         margin: auto;
-        background-color: green;
+        /* background-color: green; */
+        border: 1px solid red;
         /* height: 380px;  */
         width: 610px;
+
     }
+    a{
+        color: rgb(53, 105, 143);
+    }
+    p{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 16px;
+        line-height: 25px;
+        color: rgb(51, 51, 51);
+    }
+    h2{
+
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        /* font-size: 18px; */
+        
+        font-weight: bold;
+        color: rgb(51, 51, 51);
+    }
+
+    /* .br{
+        display: block;
+        margin: 20px 0;
+    } */
     .subscribe{
         display: flex;
         justify-content: center;
         margin: auto;
-        background-color: yellow;
-        height: 80px; 
+        /* background-color: yellow; */
+        border: 1px solid red;
+        /* height: 80px;  */
         width: 610px;
     }
     .text2{
@@ -139,8 +224,9 @@
         flex-flow: column;
         justify-content: center;
         margin: auto;
-        background-color: paleturquoise;
-        height: 440px;
+        border: 1px solid red;
+        /* background-color: paleturquoise; */
+        /* height: 440px; */
         width: 610px;
     }
 
@@ -179,7 +265,7 @@
                 font-size: 15px;
                 width: 120px;
             }
-
+    /* inflation class */
     .image2{
         display: flex;
         justify-content: center;
@@ -190,10 +276,11 @@
     }
     .text3{
         display: flex;
+        flex-flow: column;
         justify-content: center;
         margin: auto;
         background-color: rosybrown;
-        height: 50px;
+        /* height: 50px; */
         width: 610px;
     }
     .video{
@@ -201,15 +288,16 @@
         justify-content: center;
         margin: auto;
         background-color: blue;
-        height: 50px;
+        /* height: 50px; */
         width: 610px;
     }
     .text4{
         display: flex;
+        flex-flow: column;
         justify-content: center;
         margin: auto;;
         background-color: green;
-        height: 50px;
+        /* height: 50px; */
         width: 610px;
     }
     .image3{
@@ -226,7 +314,7 @@
         justify-content: center;
         margin: auto;
         background-color: purple;
-        height: 50px;
+        /* height: 50px; */
         width: 610px;
     }
     .readComments{
@@ -234,7 +322,7 @@
         justify-content: center;
         margin: auto;
         background-color: green;
-        height: 50px;
+        /* height: 50px; */
         width: 610px;
     }
     .image4{
