@@ -1,9 +1,9 @@
 *{
     margin: 0px;
     padding: 0px;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
 }
 
 .header {
@@ -62,199 +62,191 @@
 
 
 .Main{
-    display: grid;
-    /* flex-flow: row nowrap; */
-    grid-template-columns: 1fr 1fr ;
-    grid-gap: 20px;
+    display: flex;
+    flex-flow: row nowrap ;
+    justify-content: center;
     background: black;
-    
+    border: 1px solid green; 
 }
-
-.MainPart{
-    display: grid;
-    /* flex-flow: row nowrap; */
-    grid-template-columns: 1fr 1fr;
-    /* background: black; */
-
-}
-
-.MainCenter{
-    display: grid;
-    grid-template-columns: 1fr;
-    width: 610px;
-    
-}
-
-.asideMain {
-    display: grid;
-    grid-row: 1 3;
-}
-    
-    .section{
-        background-color: black;
+    .title{
         display: flex;
+        justify-content: center;
+        margin: auto;
+        margin-top: 55px;
+        background-color: orange;
+        height: 100px;
+        width: 620px;
+    }
+    .cosmo { 
+        display: flex;
+        justify-content: center;
+        margin: auto;
+        background-color: yellow;
+        height: 530px;
+        width: 947px;
+
+    }
+    .imageCosmo{
+        height: 530px;
+        width: 947px;
+    }
+    .description{
+        display: flex;
+        justify-content: center;
+        margin: auto;
+        background-color: blue;
+        height: 75px;
+        width: 947px;
+
+    }        
+    
+    .Autor{
+        display: flex;
+        justify-content: center;
+        margin: auto;
+        background-color: green;
+        height: 50px;
+        width: 610px;
+    }
+    .date{
+        display: flex;
+        justify-content: center;
+        margin: auto;
+        background-color: orange;
+        height: 50px;
+        width: 610px;
     }
 
-        .articles{
-            background: brown;
-            flex: 1 1 auto;
-            display: flex;
-            flex-flow: column nowrap;            
-            align-items: center;
+    .text1{
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        margin: auto;
+        background-color: green;
+        /* height: 380px;  */
+        width: 610px;
+    }
+    .subscribe{
+        display: flex;
+        justify-content: center;
+        margin: auto;
+        background-color: yellow;
+        height: 80px; 
+        width: 610px;
+    }
+    .text2{
+        display: flex;
+        justify-content: center;
+        margin: auto;
+        background-color: paleturquoise;
+        height: 440px;
+        width: 610px;
+    }
+
+    .aside{
+        float: right;
+        position: relative;
+        margin-right: -355px;
+        margin-top: -170px;
+        border: 1px solid red;/* take care */
+        background: purple;
+        width: 200px;
+    }
+        .editor{
+            font-weight: bold;
+            font-size: 12px;
+            background-color: greenyellow;
+            height: 310px;
+            width: 200px;
+            margin-left: -270px; 
         }
-
-
-            .title{
-                display: flex;
-                /* flex-flow: column; */
-                background-color: orange;
-                height: 100px;
-                width: 620px;
-                flex-flow: row nowrap;
-            }
-            .cosmo { 
-                display: flex;
-                background-color: yellow;
-                height: 530px;
-                width: 947px;
-    
-            }
-            .imageCosmo{
-                height: 530px;
-                width: 947px;
-            }
-            .description{
-                display: flex;
-                flex-flow: column;
-                background-color: blue;
-                height: 75px;
-                width: 947px;
-        
-            }        
-            
-            .Autor{
-                display: flex;
-                flex-flow: column;
-                background-color: green;
-                height: 50px;
-                width: 610px;
-        
-            }
-            .date{
+            .picks {
+                margin-top: 20px;
                 display: flex;
                 justify-content: space-between;
-                background-color: orange;
-                height: 50px;
-                width: 610px;
-        
+                width: 210px;
+                height: 78px;
             }
 
-
-            
-            
-            
-            .text1{
-                display: flex;
-                flex-flow: column;
-                background-color: green;
-                height: 370px;
-                /* width: 610px; */
-
+            .picksImage {
+                width: 76px;
+                height: 76px;
             }
-            .subscribe{
-                display: flex;
-                flex-flow: column;
-                background-color: yellow;
-                height: 90px;
-                /* width: 360px; */
-
-            }
-            .text2{
-                display: flex;
-                flex-flow: column;
-                background-color: paleturquoise;
-                height: 470px;
-                /* width: 610px; */
-            }
-
-        .aside{
-            background: red;
-            /* width: 200px; */
-            /* width: 200px; */
-            /* flex: 1 1 auto; */
-            /* display: flex; */
-            /* flex-basis: 240px; */
-            /* justify-content: flex-start; */
-            /* align-items: center; */
-        }
-            .editor{ /* this is for aSide */
-                display: flex;
-                flex-flow: column;
-                background-color: greenyellow;
-                height: 310px;
-                width: 200px;              
-
+            .picksText {
+                font-family: "Times New Roman", Times, serif;
+                margin-left: 10px;
+                font-size: 15px;
+                width: 120px;
             }
 
     .image2{
         display: flex;
-        flex-flow: column;
+        justify-content: center;
+        margin: auto;
         background-color: yellow;
         height: 638px;
         width: 955px;
     }
     .text3{
         display: flex;
-        flex-flow: column;
+        justify-content: center;
+        margin: auto;
         background-color: rosybrown;
         height: 50px;
         width: 610px;
     }
     .video{
         display: flex;
-        flex-flow: column;
+        justify-content: center;
+        margin: auto;
         background-color: blue;
         height: 50px;
         width: 610px;
     }
     .text4{
         display: flex;
-        flex-flow: column;
+        justify-content: center;
+        margin: auto;;
         background-color: green;
         height: 50px;
         width: 610px;
     }
     .image3{
         display: flex;
-        flex-flow: column;
+        justify-content: center;
+        margin: auto;
         background-color: orange;
         height: 723px;
         width: 578px;
     }
     .text5{
         display: flex;
-        flex-flow: column;
+        justify-content: center;
+        margin: auto;
         background-color: purple;
         height: 50px;
         width: 610px;
     }
     .readComments{
         display: flex;
-        flex-flow: column;
+        justify-content: center;
+        margin: auto;
         background-color: green;
         height: 50px;
         width: 610px;
     }
     .image4{
         display: flex;
-        flex-flow: row;
+        justify-content: center;
+        margin: auto;
         background-color: yellow;
         height: 900px;
         width: 852px;
     }
     .mostPopular{
         display: flex;
-        flex-flow: row;
+        justify-content: center;
+        margin: auto;
         background-color: red;
         height: 50px;
     }
