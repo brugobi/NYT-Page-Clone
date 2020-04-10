@@ -136,6 +136,7 @@
     }
     .text2{
         display: flex;
+        flex-flow: column;
         justify-content: center;
         margin: auto;
         background-color: paleturquoise;
@@ -221,6 +222,7 @@
     }
     .text5{
         display: flex;
+        flex-flow: column;
         justify-content: center;
         margin: auto;
         background-color: purple;
