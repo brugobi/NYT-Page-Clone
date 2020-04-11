@@ -67,8 +67,8 @@
     display: flex;
     flex-flow: row nowrap ;
     justify-content: center;
-    /* background: black; */
-    border: 1px solid green; 
+    
+    
 }
     .title{
         display: flex;
@@ -192,6 +192,8 @@
     }
     a{
         color: rgb(53, 105, 143);
+        font-family: Arial, Helvetica, sans-serif;
+        
     }
     p{
         font-family: Georgia, 'Times New Roman', Times, serif;
@@ -602,6 +604,68 @@
 hr{
     border-top: 1px solid black;
 }
+
+/* footer */
+
+.footer{
+    display: block;
+}
+    
+
+.tittlefooter{
+    display: flex;
+    justify-content: space-between;
+    border-top-style: double;
+    border-top-color:  rgb(186, 186, 186);
+    margin: 25px 115px 25px 115px;
+}
+.columnsfooter{
+    flex: 1 1 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    list-style-type: none;
+    text-decoration: none;
+    line-height: 20px;
+    font-size: 12px;
+    margin: 25px 112px 75px 112px; 
+    
+} 
+
+.asidefooter{
+    border-left: solid rgb(186, 186, 186);
+    border-width: 1px;
+    list-style-type: none;
+    text-decoration: none;
+    line-height: 20px;
+    font-size: 12px;
+    padding-left: 20px;
+    
+}
+
+.asidefooterfirst{
+    padding-bottom: 10px;
+    
+}
+
+.asidefootersecond{
+    padding-top: 10px;
+    margin-top: black;
+    
+}
+
+.informationfooter{
+    display: flex;
+    margin: 25px 184px 25px 184px;
+    justify-content: space-around; 
+    font-size: 12px;
+    text-decoration: none;
+    
+  
+}
+
+
+
 
 
 
