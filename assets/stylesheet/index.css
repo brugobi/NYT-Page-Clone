@@ -609,8 +609,13 @@ hr{
 
 .footer{
     display: block;
+    line-height: 20px;
 }
-    
+
+.go-to-home{
+    color: rgb(53, 105, 143);
+    font-family: Arial, Helvetica, sans-serif;
+}
 
 .tittlefooter{
     display: flex;
@@ -618,6 +623,8 @@ hr{
     border-top-style: double;
     border-top-color:  rgb(186, 186, 186);
     margin: 25px 115px 25px 115px;
+    padding: 20px 0 20px 0;
+    
 }
 .columnsfooter{
     flex: 1 1 100%;
@@ -629,9 +636,18 @@ hr{
     line-height: 20px;
     font-size: 12px;
     margin: 25px 112px 75px 112px; 
-    
+    border-bottom: solid rgb(186, 186, 186) ;
+    border-bottom-width: 1px;
 } 
 
+.iconsFooter{
+    font-size: 14px;
+    color:black;
+}
+.iconsText{
+    font-size: 18px;
+    color: black;
+}
 .asidefooter{
     border-left: solid rgb(186, 186, 186);
     border-width: 1px;
@@ -639,8 +655,7 @@ hr{
     text-decoration: none;
     line-height: 20px;
     font-size: 12px;
-    padding-left: 20px;
-    
+    padding-left: 20px;  
 }
 
 .asidefooterfirst{
@@ -654,14 +669,22 @@ hr{
     
 }
 
+.linkfooter{
+    color: rgb(51,51,51);
+    text-decoration: none;
+}
+
+.uppercasefooter{
+    color: rgb(51,51, 51);
+
+}
+
 .informationfooter{
     display: flex;
     margin: 25px 184px 25px 184px;
     justify-content: space-around; 
     font-size: 12px;
     text-decoration: none;
-    
-  
 }
 
 
