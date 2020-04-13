@@ -133,9 +133,13 @@ p {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.hrAutors {
+  width: 5%;
+}
+
 .autorLink {
   color: rgb(51, 51, 51);
-  font-size: 12px;
+  font-size: 13px;
   font-weight: bold;
   text-decoration: none;
   text-decoration: underline;
@@ -391,6 +395,11 @@ h2 {
   width: 610px;
 }
 
+.iFrame {
+  width: 600px;
+  height: 360px;
+}
+
 .text4 {
   display: flex;
   flex-flow: column;
@@ -487,6 +496,10 @@ h2 {
   width: 1205px;
 }
 
+.hrArticles {
+  width: 95%;
+}
+
 .ContentMore {
   width: 100%;
   display: flex;
@@ -559,8 +572,13 @@ h2 {
   margin-bottom: 15px;
 }
 
+.hr0 {
+  width: 100%;
+}
+
 .hr1 {
   border-top: 1px solid rgb(238, 238, 238);
+  width: 100%;
 }
 
 hr {
@@ -644,6 +662,7 @@ hr {
 
 .uppercasefooter {
   color: rgb(51, 51, 51);
+  list-style-type: none;
 }
 
 .informationfooter {
