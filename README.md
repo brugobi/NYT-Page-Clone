@@ -17,7 +17,7 @@
 
 ## LIVE DEMO
 
-https://rawcdn.githack.com/brugobi/NYT-Page-Clone/43d3d715c76aa73902156f693a349d7e0ac8dd74/index.html
+[Live Demo Link](https://rawcdn.githack.com/brugobi/NYT-Page-Clone/43d3d715c76aa73902156f693a349d7e0ac8dd74/index.html)
 
 ## Built With
 - HTML & CSS;
